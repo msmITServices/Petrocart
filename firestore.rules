@@ -1,0 +1,72 @@
+rules_version = '2';
+service cloud.firestore {
+
+  match /databases/{database}/documents {
+  
+  match /banner-android/{collection} {
+      allow read;
+    }
+    
+    match /cart/{userId}/product{
+    	allow read:if request.auth.uid!=null && 
+      request.auth.uid == userId;
+    }
+     match /cart/{userId}/product/{product_detail} {
+      allow get,read,write, update, delete: if request.auth.uid!=null && 
+      request.auth.uid == userId;
+      allow create:if request.auth.uid!=null;
+    }
+    
+    match /categories/{collection} {
+      allow read;
+    }
+    
+    match /main-banner/{collection} {
+    	allow read;
+    }
+    
+    match /main-slider/{collection} {
+    	allow read;
+    }
+    
+    match /order/{userId}/orders/{order} {
+      allow get,write: if request.auth.uid!=null && 
+      request.auth.uid == userId;
+      allow create,get,read:if request.auth.uid!=null;
+    }
+    
+    match /products-main/{collection} {
+      allow read;
+    }
+    match /reviews/{product}/review/{userId} {
+      allow write,update,delete: if request.auth.uid!=null && 
+      request.auth.uid == userId;
+      allow get,read:if request.auth.uid!=null
+    }
+    
+    match /secondary-slider/{collection} {
+      allow read;
+    }
+    
+    match /slider-android/{collection} {
+      allow read;
+    }
+    
+     match /testimonials/{collection} {
+      allow read;
+    }
+    
+    match /users/{userId} {
+      allow get, write: if request.auth.uid!=null && 
+      request.auth.uid == userId;
+      allow create:if request.auth.uid!=null
+      }
+    
+    match /wishlist/{userId}/products/{wishdata} {
+     allow read,create,get,delete,update: if request.auth.uid!=null && 
+      request.auth.uid == userId;
+      allow create:if request.auth.uid!=null;
+    }
+    
+  }
+}

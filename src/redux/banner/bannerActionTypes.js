@@ -1,0 +1,6 @@
+const bannerActionTypes={
+    FETCH_BANNER_START:'FETCH_BANNER_START',
+    FETCH_BANNER_SUCCESS:'FETCH_BANNER_SUCCESS',
+    FETCH_BANNER_FAILURE:'FETCH_BANNER_FAILURE'
+};
+export default bannerActionTypes;

@@ -1,0 +1,135 @@
+[
+	{
+		 "category": "Street lights",
+		 "icon": "icons/flame-outline.svg"
+
+	},
+	{
+		"category":"canopy light",
+		"icon": "icons/flashlight-outline.svg"
+	},
+	{
+		"category":"STP Capacitor",
+		"icon": "icons/flask-outline.svg"
+	},
+	{
+		"category":"3 Pin Plug Tops",
+		"icon": "icons/git-network-outline.svg"
+	},
+	{
+		"category":"Insulation Tapes",
+		"icon": "icons/flash-off-outline.svg"
+	},
+	{
+		"category":"Thermal Printer Rolls",
+		"icon": "icons/help-buoy-outline.svg"
+	},
+	{
+		"category":"Tester & plyers",
+		"icon": "icons/hammer-outline.svg"
+	},
+	{
+		"category":"Batteries",
+		"icon": "icons/battery-charging-outline.svg"
+	},
+	{
+		"category":"Teflon Tapes",
+		"icon": "icons/scan-circle-outline.svg"
+	},
+	{
+		"category":"Relay Contactor",
+		"icon": "icons/shuffle-outline.svg"
+	},
+	{
+		"category":"Pannel Indicators",
+		"icon": "icons/speedometer-outline.svg"
+	},
+	{
+		"category":"Paste",
+		"icon": "icons/water-outline.svg"
+	},
+	{
+		"category":"Glands",
+		"icon": "icons/recording-outline.svg"
+	},
+	{
+		"category":"Relays",
+		"icon": "icons/recording-outline.svg"
+	},
+	{
+		"category":"Boxes",
+		"icon": "icons/tablet-landscape-outline.svg"
+	},
+	{
+		"category":"ID Cards",
+		"icon": "icons/reader-outline.svg"
+	},
+	{
+		"category":"New Pannel Board",
+		"icon": "icons/push-outline.svg"
+	},
+	{
+		"category":"UPS",
+		"icon": "icons/file-tray-stacked-outline.svg"
+	},
+	{
+		"category":"Stabilizers",
+		"icon": "icons/git-compare-outline.svg"
+	},
+	{
+		"category":"CVT",
+		"icon": "icons/flower-outline.svg"
+	},
+	{
+		"category":"MCCB",
+		"icon": "icons/hardware-chip-outline.svg"
+	},
+	{
+		"category":"ELCB",
+		"icon": "icons/newspaper-outline.svg"
+	},
+	{
+		"category":"Sandard Duty Nozzle",
+		"icon": "icons/barbell-outline.svg"
+	},
+	{
+		"category":"Heavy Duty Nozzle",
+		"icon": "icons/barbell-outline.svg"
+	},
+	{
+		"category":"Standard Duty Hosepipes",
+		"icon": "icons/git-commit-outline.svg"
+	},
+	{
+		"category":"Heavy Duty Hosepipes",
+		"icon": "icons/git-commit-outline.svg"
+	},
+	{
+		"category":"Handle Change Over Switch",
+		"icon": "icons/flask-outline.svg"
+	},
+	{
+		"category":"MCB Change Over Switch",
+		"icon": "icons/color-wand-outline.svg"
+	},
+	{
+		"category":"Power Plates Support 6A And 16A",
+		"icon": "icons/disc-outline.svg"
+	},
+	{
+		"category":"Solar Light With Battery",
+		"icon": "icons/construct-outline.svg"
+	},
+	{
+		"category":"flood lamp",
+		"icon": "icons/flashlight-outline.svg"
+	},
+	{
+		"category":"hoarding light",
+		"icon": "icons/flashlight-outline.svg"
+	}
+]
+
+
+
+
